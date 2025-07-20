@@ -1,9 +1,9 @@
 function Football () {
-    const shoot = () =>{
-        alert ("grteat shoot")
+    const shoot = (a) =>{
+        alert (a)
     }
     return(
-        <button onClick={shoot} > Take the shoot</button>
+        <button onClick = {() => shoot("goalll")} > Take the shoot</button>
     )
 }
 
