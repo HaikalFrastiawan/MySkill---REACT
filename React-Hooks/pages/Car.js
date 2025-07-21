@@ -14,6 +14,18 @@ function Car () {
         color: 'red'
     })
 
+    
+    const updateColor = () =>{
+    setCar(previousState  =>{
+        return {...previousState, color: 'blue'}
+    })}
+
+    const updateBrand = () =>{
+        setCar(previousState =>{
+            return {...previousState,brand: 'Samsung'}
+        })
+    }
+
     return (
         <>
         <h2>
@@ -21,12 +33,16 @@ function Car () {
         </h2>
 
         <p>
-            it a {car.Color} {car.model} from {car.years}
+            it a {car.color} {car.model} from {car.years}
 
         </p>
+        <button type="button" onClick={updateColor}>UpdateColor</button>
+        <button type="button" onClick={updateBrand}>UpdateBrand</button>
         </>
     )
 
 }
+
+
 
 export default Car
