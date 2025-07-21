@@ -24,6 +24,7 @@ function App() {
       <FavoritColor />
       <Car />
       <Timer /> //React UseEffect
+      <Counter /> //React UseEffect
     </div>
   );
 }
