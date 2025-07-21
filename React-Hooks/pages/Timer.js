@@ -8,7 +8,7 @@ function Timer () {
         setTimeout ( () =>{
             setCount( (count) => count + 1)
         }, 1000)
-    })
+    },[]) //[] for bracket or depedency
 return(
     <>
     <h1> 
