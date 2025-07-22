@@ -8,6 +8,9 @@ function App() {
     <div className="App">
       <MyForm />
       <MyForm2  />
+       <hr></hr>
+      <h1>Halaman form</h1>
+      <MyForm3 />
     </div>
   );
 }
