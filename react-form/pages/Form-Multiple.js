@@ -12,7 +12,8 @@ function MyForm3 (){
 
     const handleSubmit = (event) =>{
         event.preventDefault()
-        console.log(inputs)
+        alert(`your name: ${inputs.username} dan your age: ${inputs.age}`)
+
     }
 
     return(
@@ -34,6 +35,9 @@ function MyForm3 (){
             </label>
 
             <input type="submit" />
+
+            
+
         </form>
     )
 }
